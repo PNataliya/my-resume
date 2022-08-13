@@ -34,10 +34,14 @@ body {
 }
 
 .about-me-profession {
+  margin-bottom: 40px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
   color: #000;
 }
 
@@ -57,12 +61,6 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-}
-
-.about-me-profession {
-  font-size: 14px;
-  font-weight: 700;
-  color: #000;
 }
 
 /* My projects section */
