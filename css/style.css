@@ -16,15 +16,15 @@ body {
 /* Main content section */
 
 .main-container-section {
-  padding: 100px 90px;
+  padding: 43px 81px;
 }
 
 .main-content-title {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 27px;
-  color: #000000;
+  line-height: 1, 22;
+  color: #262626;
   margin-bottom: 12px;
 }
 
@@ -37,20 +37,19 @@ body {
   margin-bottom: 40px;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000;
-  font-size: 14px;
+  font-size: 26px;
+  line-height: 1, 21;
+  color: #262626;
+  font-size: 1, 2;
   font-weight: 700;
-  color: #000;
 }
 
 .about-me-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
-  line-height: 55px;
-  color: #000;
+  font-size: 56px;
+  line-height: 1, 19;
+  color: #262626;
   margin: 0 0 25px 0;
 }
 
@@ -68,11 +67,20 @@ body {
   margin-bottom: 50px;
 }
 
+.summary {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #595959;
+}
+
 .my-projects-list {
-  padding: 0 0 0 16px;
+  padding: 0;
 }
 
 .my-projects-item {
+  list-style-type: none;
   color: #000;
   font-weight: bold;
 }
@@ -90,14 +98,15 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  margin-left: 5px;
+  margin: 0 auto;
+  margin-bottom: 12px;
 }
 .my-projects-bracket {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
+  color: #595959;
 }
 
 /* My work experience */
@@ -158,11 +167,18 @@ body {
 /* Sidebar-section */
 
 .sidebar-section {
-  background-color: #1e2939;
+  background-color: #889381;
   width: 370px;
   padding: 40px 0;
 }
 
+.sidebar-container {
+  padding: 20px;
+}
+.myPhoto {
+  border: 3px solid #fff;
+  border-radius: 16px;
+}
 .contacts-section {
   margin: 50px 0 0 40px;
 }
@@ -211,7 +227,7 @@ body {
 }
 
 .tech-skills-item {
-  color: #fb6d3a;
+  color: #fff;
 }
 
 .tech-skills-item-text {
